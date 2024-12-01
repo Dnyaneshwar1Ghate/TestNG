@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-23T03:08:22Z" name="Default suite" finished-at="2024-11-23T03:08:22Z" duration-ms="301">
+  <suite started-at="2024-12-01T13:20:04Z" name="Default suite" finished-at="2024-12-01T13:20:19Z" duration-ms="14671">
     <groups>
     </groups>
-    <test started-at="2024-11-23T03:08:22Z" name="Default test" finished-at="2024-11-23T03:08:22Z" duration-ms="301">
-      <class name="TestNG.FirstDemo">
-        <test-method signature="get()[pri:0, instance:TestNG.FirstDemo@f4cfd90]" started-at="2024-11-23T03:08:22Z" name="get" finished-at="2024-11-23T03:08:22Z" duration-ms="97" status="PASS">
+    <test started-at="2024-12-01T13:20:04Z" name="Default test" finished-at="2024-12-01T13:20:19Z" duration-ms="14671">
+      <class name="ToolsQA.AllDemoQA">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ToolsQA.AllDemoQA@457c9034]" started-at="2024-12-01T13:20:04Z" name="setup" finished-at="2024-12-01T13:20:16Z" duration-ms="11365" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get -->
-      </class> <!-- TestNG.FirstDemo -->
+        </test-method> <!-- setup -->
+        <test-method signature="getUrl()[pri:0, instance:ToolsQA.AllDemoQA@457c9034]" started-at="2024-12-01T13:20:16Z" name="getUrl" finished-at="2024-12-01T13:20:19Z" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+      </class> <!-- ToolsQA.AllDemoQA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
